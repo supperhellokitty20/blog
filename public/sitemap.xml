@@ -2,51 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/how-to-make-a-simple-link-shortener/</loc>
+    <loc>//localhost:1313/posts/how-to-make-a-simple-link-shortener/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/coding/</loc>
+    <loc>//localhost:1313/tags/coding/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ctf/</loc>
+    <loc>//localhost:1313/categories/ctf/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ctf/</loc>
+    <loc>//localhost:1313/tags/ctf/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/forensics/</loc>
+    <loc>//localhost:1313/tags/forensics/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/re/</loc>
+    <loc>//localhost:1313/tags/re/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sd-ctf-2024/</loc>
+    <loc>//localhost:1313/posts/sd-ctf-2024/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tech/</loc>
+    <loc>//localhost:1313/tags/tech/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/web/</loc>
+    <loc>//localhost:1313/tags/web/</loc>
     <lastmod>2024-05-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/backdoor-ctf-2023/</loc>
+    <loc>//localhost:1313/posts/backdoor-ctf-2023/</loc>
     <lastmod>2023-12-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/cyber-apocalypse-2024/</loc>
+    <loc>//localhost:1313/posts/cyber-apocalypse-2024/</loc>
     <lastmod>2023-12-15T00:20:16+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>//localhost:1313/search/</loc>
   </url>
 </urlset>

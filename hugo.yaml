@@ -1,4 +1,4 @@
-baseURL: "https://blog-mauve-three-10.vercel.app"  # Fill your domain here once deployed 
+baseURL: "/"  # Fill your domain here once deployed 
 languageCode: en-us
 title: Logo  
 theme: ["PaperMod"]
