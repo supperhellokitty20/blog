@@ -1,10 +1,11 @@
-baseURL: ""  # Fill your domain here once deployed 
+baseURL: "https://blog-nfniw0o92-supperhellokitty20s-projects.vercel.app"  # Fill your domain here once deployed 
 languageCode: en-us
 title: Logo  
 theme: ["PaperMod"]
 enableEmoji: true
 params:
   author : "FireLord"
+  env : "production"
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
