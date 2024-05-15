@@ -1,0 +1,49 @@
+baseURL: ""  # Fill your domain here once deployed 
+languageCode: en-us
+title: Logo  
+theme: ["PaperMod"]
+enableEmoji: true
+params:
+  author : "FireLord"
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  ShowReadingTime: true
+  homeInfoParams:
+    Title: "FireLord ❤️‍🔥"
+    Content: "Welcome to my blog. I write about cybersec stuff and my research." 
+  socialIcons:
+      - name: github
+        title: View Source on Github
+        url: "https://github.com/supperhellokitty20"
+      - name: Discord
+        title: Join discord community
+        url: ""
+      - name: website 
+        title: See my website for more info 
+        url: "http://master-rizz.lol"
+  ShowCodeCopyButtons: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search 
+      name: Search  
+      url: /search/
+      weight: 20
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Markdown on Logo</title>
+    <link>//localhost:40081/tags/markdown/</link>
+    <description>Recent content in Markdown on Logo</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 May 2024 00:20:16 +0700</lastBuildDate>
+    <atom:link href="//localhost:40081/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sunn</title>
+      <link>//localhost:40081/posts/first/</link>
+      <pubDate>Wed, 15 May 2024 00:20:16 +0700</pubDate>
+      <guid>//localhost:40081/posts/first/</guid>
+      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
+    </item>
+  </channel>
+</rss>

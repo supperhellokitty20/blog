@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>RE on Logo</title>
+    <link>//localhost:1313/tags/re/</link>
+    <description>Recent content in RE on Logo</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 May 2024 00:20:16 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/re/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>San Diego CTF 2024 writeups</title>
+      <link>//localhost:1313/posts/sd-ctf-2024/</link>
+      <pubDate>Wed, 15 May 2024 00:20:16 +0700</pubDate>
+      <guid>//localhost:1313/posts/sd-ctf-2024/</guid>
+      <description>A collection of write up for San Diego CTF 2024</description>
+    </item>
+    <item>
+      <title>Backdoor CTF 2023</title>
+      <link>//localhost:1313/posts/backdoor-ctf-2023/</link>
+      <pubDate>Fri, 15 Dec 2023 00:20:16 +0700</pubDate>
+      <guid>//localhost:1313/posts/backdoor-ctf-2023/</guid>
+      <description>Write up collection for BackDoor CTF 2023</description>
+    </item>
+  </channel>
+</rss>
