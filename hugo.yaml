@@ -1,4 +1,4 @@
-baseURL: "/"  # Fill your domain here once deployed 
+baseURL: "https://supperhellokitty20.github.io/blog"  # Fill your domain here once deployed 
 languageCode: en-us
 title: Logo  
 theme: ["PaperMod"]
